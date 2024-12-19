@@ -72,10 +72,8 @@ function handleMediaChange(e) {
   }
 }
 
-// Check the initial state
 handleMediaChange(mediaQuery);
 
-// Listen for changes
 mediaQuery.addEventListener('change', handleMediaChange);
 
    
@@ -83,10 +81,10 @@ mediaQuery.addEventListener('change', handleMediaChange);
         const revealTop = contact.getBoundingClientRect().top;
         if (revealTop < windowHeight - revealPoint) {
             contact.classList.add('animate-slideleft');
-           contact_form.classList.add('animate-slidetop') 
+           contact_form.classList.add('animate-slidedown') 
         } else {
             contact.classList.remove('animate-slideleft');
-            contact_form.classList.remove('animate-slidetop') ;
+            contact_form.classList.remove('animate-slidedown') ;
         }
     });
 }

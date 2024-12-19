@@ -38,7 +38,7 @@ export const About = () => {
                 className="relative h-[100px] w-[100px] flex justify-center items-center"
               >
                 <div
-                  className="relative rounded-full w-full h-full animate-fill"
+                  className={`relative rounded-full w-full h-full animate-fill`}
                   style={{
                     background: `conic-gradient(${skill.color} ${skill.percentage * 3.6}deg, #e5e7eb ${skill.percentage * 3.6}deg)`,
                   }}

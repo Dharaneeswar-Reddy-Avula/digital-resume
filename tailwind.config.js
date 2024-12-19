@@ -12,6 +12,7 @@ export default {
         slideIn: 'slideIn 1s ease-out',
         slideleft: 'slideleft 1s ease-out',
         slidetop: 'slidetop 1s ease-out',
+        slidedown: 'slidedown 1s ease-out',
         slideright:'slideright 1s ease-out',
         slidetopDelay1: 'slidetop 1s ease-out 0.2s',
         slidetopDelay2: 'slidetop 1s ease-out 0.4s',
@@ -34,6 +35,10 @@ export default {
         },
         slidetop: {
           '0%': { transform: 'translateY(-200px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        slidedown: {
+          '0%': { transform: 'translateY(200px)' },
           '100%': { transform: 'translateY(0)' },
         },
        
