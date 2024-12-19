@@ -20,7 +20,6 @@ export function setupScrollAnimation() {
     window.addEventListener('scroll', function () {
         const revealTop = aboutsection.getBoundingClientRect().top;
         if (revealTop < windowHeight - revealPoint) {
-            console.log("reached");
             aboutsection.classList.add('animate-slideleft');
             myedu.classList.add('animate-slideIn') 
             skills.classList.add('animate-slideleft')
@@ -35,7 +34,6 @@ export function setupScrollAnimation() {
     window.addEventListener('scroll', function () {
         const revealTop = projects.getBoundingClientRect().top;
         if (revealTop < windowHeight - revealPoint) {
-            console.log("reached");
             projects.classList.add('animate-slideleft');
             card_1.classList.add('animate-slidetopDelay1');
             card_2.classList.add('animate-slidetopDelay2');
@@ -56,7 +54,6 @@ export function setupScrollAnimation() {
     window.addEventListener('scroll', function () {
         const revealTop = contact.getBoundingClientRect().top;
         if (revealTop < windowHeight - revealPoint) {
-            console.log("reached");
             contact.classList.add('animate-slideleft');
            contact_form.classList.add('animate-slidetop') 
         } else {
