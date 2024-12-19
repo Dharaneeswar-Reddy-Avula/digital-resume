@@ -14,7 +14,7 @@ export const Projects = () => {
       );
   return (
     <div> <section className="Projects w-full  p-[10px] md:p-[20px] flex flex-col gap-[30px] items-center shadow-xxl">
-    <div className="cards-wrap flex flex-wrap justify-center gap-[10px] md:gap-[20px]  md:py-[50px]  rounded-lg relative  shadow-xxl">
+    <div className="cards-wrap flex flex-wrap justify-center gap-[20px]  md:py-[50px]  rounded-lg relative  shadow-xxl">
       <a
         href="https://gigo-gamma.vercel.app/"
         className="card-1 shadow-lg border-[2px] border-[aqua] rounded-lg overflow-hidden"

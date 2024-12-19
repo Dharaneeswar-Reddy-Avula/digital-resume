@@ -20,7 +20,7 @@ export const App = () => {
       resume.classList.add('animate-slidetopDelay3')
       profile.classList.add('animate-slideleft')
       image.classList.add('animate-slideleft')
-        setupScrollAnimation();
+      setupScrollAnimation();
     }, []);
    
   return (
@@ -40,9 +40,9 @@ export const App = () => {
       <Projects/>
       <h1 className="contact-text text-[30px] text-white pt-[100px] text-center font-semibold" id="contact">
         Contact <span className="text-[aqua]">Me</span>
-      </h1>
-        <ContactForm/>
-        <Footer/>
+      </h1>      
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 };

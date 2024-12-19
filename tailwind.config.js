@@ -33,7 +33,7 @@ export default {
           '100%': { transform: 'translateX(0)' },
         },
         slidetop: {
-          '0%': { transform: 'translateY(200px)' },
+          '0%': { transform: 'translateY(-200px)' },
           '100%': { transform: 'translateY(0)' },
         },
        
